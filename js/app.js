@@ -1,12 +1,12 @@
 // Enemy Class
 var Enemy = function(loc) {
     this.sprite = 'images/enemy-bug.png';
-    this.x = 101; // http://discussions.udacity.com/t/a-direction-please/13803/2
+    this.x = 101; 
     this.y = 60; 
 };
 
 Enemy.prototype.move = function() {
-    this.speed = 100; // http://discussions.udacity.com/t/spawning-random-enemies-images-to-the-canvas/15860
+    this.speed = 100; 
 };
 
 Enemy.prototype.update = function(dt) {
@@ -32,7 +32,7 @@ Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 
-Player.prototype.handleInput = function(key) { // http://discussions.udacity.com/t/player-disappears-on-key-press/13740/2
+Player.prototype.handleInput = function(key) { 
 
     if ('left' === key) {
         this.x - 101;

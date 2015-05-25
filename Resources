@@ -1,0 +1,12 @@
+Resources
+
+Udacity JavaScript Basics, Object-Oriented JavaScript, and HTLM5 Canvas Course Materials
+
+I learned how to set x and y positions for the sprites using this.x and this.y here:
+http://discussions.udacity.com/t/a-direction-please/13803/2
+
+I learned how to set sprite speed using this.speed here: 
+http://discussions.udacity.com/t/spawning-random-enemies-images-to-the-canvas/15860
+
+I picked up the code “if (‘left’ === key)” from here: 
+http://discussions.udacity.com/t/player-disappears-on-key-press/13740/2
